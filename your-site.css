@@ -1,0 +1,55 @@
+body, html {
+    /*
+  The default html interpertation adds margin and padding to the basic elements
+  So it can be logically helpful to remove them from the beginning!
+  */
+  	font-family: 'Tahoma', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #F8F6F6;
+    color: #3F3F3F;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+}
+
+p {
+	line-height: 150%;
+}
+
+.flexbox {
+	display: flex;
+	justify-content: center;
+}
+
+buttons {
+	display: flex;
+	justify-content: center;
+}
+
+left {
+	flex: 1 0 auto;
+	max-width: 20%;
+	align-items: center;
+}
+
+right {
+	margin-top: 4rem;
+	max-width: 30%;
+}
+
+
+.personal {
+	width: 91%;
+	border-radius: 3%;
+}
+
+.git {
+	width: 20%;
+}
+
+.linkedin {
+	width: 40%;
+}
